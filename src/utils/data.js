@@ -1,6 +1,9 @@
 import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { CiMobile1 } from "react-icons/ci";
 import { MdWorkspacesOutline } from "react-icons/md";
+import people1 from '../assets/images/people1.png'
+import people2 from '../assets/images/people2.png'
+
 export const projectExperience = [
   {
     name: "Website Design",
@@ -57,21 +60,21 @@ export const comments = [
     post: "Seattle, United States",
     comment:
     "In overall, I was very satisfied with the work completed by Pramod. He followed the instructions and provided the good quality.",
-    img: "./people1.png",
+    img: people1,
   },
   {
     name: "Propel Social",
     post: "York, United States",
     comment:
       "Very prompt. Followed instructions well. Went above and beyond.",
-    img: "./people2.png",
+    img: people2,
   },
   {
     name: "The Wingspan Group",
     post: "WANCHAI, Hong Kong",
     comment:
     "Responsive and good communications.",
-    img: "./people1.png",
+    img: people1,
   },
   
   {
@@ -79,21 +82,21 @@ export const comments = [
     post: "Seattle, United States",
     comment:
     "In overall, I was very satisfied with the work completed by Pramod. He followed the instructions and provided the good quality.",
-    img: "./people1.png",
+    img: people1,
   },
   {
     name: "Propel Social",
     post: "York, United States",
     comment:
       "Very prompt. Followed instructions well. Went above and beyond.",
-    img: "./people2.png",
+    img: people2,
   },
   {
     name: "The Wingspan Group",
     post: "WANCHAI, Hong Kong",
     comment:
     "Responsive and good communications.",
-    img: "./people1.png",
+    img: people2,
   },
   
   
@@ -103,21 +106,21 @@ export const comments = [
     post: "Seattle, United States",
     comment:
     "In overall, I was very satisfied with the work completed by Pramod. He followed the instructions and provided the good quality.",
-    img: "./people1.png",
+    img: people1,
   },
   {
     name: "Propel Social",
     post: "York, United States",
     comment:
       "Very prompt. Followed instructions well. Went above and beyond.",
-    img: "./people2.png",
+    img: people2,
   },
   {
     name: "The Wingspan Group",
     post: "WANCHAI, Hong Kong",
     comment:
     "Responsive and good communications.",
-    img: "./people1.png",
+    img: people2,
   },
 ];
 

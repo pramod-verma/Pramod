@@ -1,4 +1,8 @@
 .nav-bar {
+
+  @media (max-width: 640px) {
+    display: none;
+}
     
     background: #181818;
     width: 60px;

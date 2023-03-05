@@ -1,5 +1,6 @@
 import React from "react";
 import { fadeIn, slideIn, staggerContainer } from "../../utils/motion";
+import certificate from '../../assets/images/certificate.png'
 
 import "../../styles/global.scss";
 import css from "./Hero.module.scss";
@@ -42,7 +43,7 @@ const Hero = () => {
 
         <div className={css.lowerElements}>
           <motion.div variants={fadeIn("right", "tween", 0.3, 1)} className={css.experience}>
-            <div className="primaryText">3</div>
+            <div className="primaryText">2.5</div>
             <div className="secondaryText">
               <div>Years</div>
               <div>Experience</div>
@@ -50,7 +51,7 @@ const Hero = () => {
           </motion.div>
 
           <motion.div variants={fadeIn("left", "tween", 0.5, 1)} className={css.certificate}>
-            <img src="./certificate.png" alt="" />
+            <img src={certificate} alt="" />
             <span>CERTIFIED PROFATIONAL</span>
             <span>Web Developer</span>
           </motion.div>
